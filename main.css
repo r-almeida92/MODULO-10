@@ -99,3 +99,32 @@ section h2 {
 .item-central {
     margin: 0 5%;
 }
+
+.lista-veiculos li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #575fcf;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.lista-veiculos li strong {
+    margin: 16px 0;
+    display: block;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: #ccc;
+    font-size: 14px;
+}
